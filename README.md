@@ -34,6 +34,8 @@ web/
 
 Si cambias el contenido, cambia también `claveProgreso` en `js/config.js` (por ejemplo, de `-v1` a `-v2`). Así nadie arrastra progreso guardado de la versión anterior.
 
+**Cada vez que subas cambios** de los archivos `css` o `js`, sube también el número `?v=` en `index.html` (de `?v=4` a `?v=5`, en las 4 líneas). Si no, los navegadores pueden seguir mostrando la versión antigua que tienen guardada.
+
 ## 3. La escena 3D (Spline)
 
 La escena está en tu cuenta de Spline. La web la carga desde el enlace `escenaURL` de `js/config.js`.
