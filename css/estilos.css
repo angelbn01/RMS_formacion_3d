@@ -275,6 +275,14 @@ button { font: inherit; cursor: pointer; }
 /* ---------- Impresión del certificado ---------- */
 @media print {
   .barra, .escena, .zonas, .acciones, .enlace, .no-imprimir { display: none !important; }
-  html, body { overflow: visible; background: #fff; }
-  .panel { position: static; width: auto; border: none; }
+  @page { margin: 14mm; }
+  html, body { overflow: visible !important; height: auto !important; background: #fff; }
+  /* El panel deja de ser una caja con scroll: se imprime entero */
+  .panel {
+    position: static !important; inset: auto !important;
+    width: auto !important; height: auto !important; max-height: none !important;
+    overflow: visible !important; border: none !important; box-shadow: none !important;
+    border-radius: 0 !important; padding: 0 !important;
+  }
+  .tabla-resultados tr, .certificado { break-inside: avoid; }
 }
