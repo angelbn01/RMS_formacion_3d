@@ -60,7 +60,7 @@ window.FORMACION = {
         { titulo: 'Recepción del vehículo',
           texto: 'Al recibir un coche se registran matrícula, kilómetros, el motivo de la visita y cualquier daño visible. El cliente firma la orden de trabajo antes de que el coche pase al taller.' },
         { titulo: 'Punto de atención',
-          texto: 'La mesa alta junto al cristal se usa para explicar presupuestos con calma y enseñar al cliente lo que pasa en el taller. Nunca se empieza un trabajo adicional sin la aprobación del cliente.' }
+          texto: 'La mesa alta con taburetes junto al cristal se usa para explicar presupuestos con calma y enseñar al cliente lo que pasa en el taller. Nunca se empieza un trabajo adicional sin la aprobación del cliente.' }
       ],
       preguntas: [
         { tipo: 'test',
